@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: hdfs3
@@ -7,7 +7,7 @@ package:
 source:
   fn: hdfs3-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/h/hdfs3/hdfs3-{{ version }}.tar.gz
-  md5: ed0810314af1f4c147af0c1d6ed8a266
+  md5: 824887b9b1756701003153fd4b39af8f
 
 build:
   number: 0
