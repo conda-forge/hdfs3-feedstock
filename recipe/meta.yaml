@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 
 package:
   name: hdfs3
@@ -7,7 +7,7 @@ package:
 source:
   fn: hdfs3-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/h/hdfs3/hdfs3-{{ version }}.tar.gz
-  md5: a732579fe6c2751f802c532bc91c3205
+  sha256: 4e74d3dccfab68596c11d1b2e62420bcc36fbd2692aa2771abc27e08d43bc631
 
 build:
   number: 1
@@ -19,11 +19,11 @@ requirements:
   build:
     - python
     - setuptools
-    - libhdfs3
+    - libhdfs3 2.3
 
   run:
     - python
-    - libhdfs3
+    - libhdfs3 2.3
 
 test:
   imports:
