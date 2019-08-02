@@ -31,6 +31,8 @@ test:
 about:
   home: https://github.com/dask/hdfs3
   license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE.txt
   summary: Python wrapper for libhdfs3
 
 extra:
