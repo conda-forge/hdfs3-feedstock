@@ -10,7 +10,7 @@ source:
   sha256: 3be9ca9d812e760969419e7288fef4d6700e7aa01d303aad4e56cd4ecb4f11ed
 
 build:
-  number: 1
+  number: 2
   script: python setup.py install --single-version-externally-managed --record=record.txt
   # This packages uses libhdfs3, which is primarily used with HDFS on Linux.
   skip: True  # [win]
